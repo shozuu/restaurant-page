@@ -1,0 +1,21 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A multi-page restaurant website created as part of The Odin Project's JavaScript course. This project utilizes Webpack to bundle JavaScript, CSS, and image files, demonstrating modular development and efficient build processes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
